@@ -39,16 +39,3 @@ def collect_market_data(sector: str):
         ]
 
 
-# from duckduckgo_search import DDGS
-
-# def collect_market_data(sector: str):
-
-#     query = f"India {sector} market news trade opportunities"
-
-#     results = []
-
-#     with DDGS() as ddgs:
-#         for r in ddgs.text(query, max_results=5):
-#             results.append(r["body"])
-
-#     return "\n".join(results)

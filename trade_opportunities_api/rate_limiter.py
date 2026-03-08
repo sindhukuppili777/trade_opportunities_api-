@@ -27,21 +27,3 @@ def check_rate_limit(user):
 
 
 
-# import os
-# from fastapi import HTTPException
-# from storage import request_counts
-
-# RATE_LIMIT = int(os.getenv("RATE_LIMIT", 5))
-
-# def check_rate_limit(session_id):
-
-#     if session_id not in request_counts:
-#         request_counts[session_id] = 0
-
-#     request_counts[session_id] += 1
-
-#     if request_counts[session_id] > RATE_LIMIT:
-#         raise HTTPException(
-#             status_code=429,
-#             detail="Rate limit exceeded. Try again later."
-#         )

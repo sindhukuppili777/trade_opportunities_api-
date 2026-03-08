@@ -59,6 +59,12 @@ The API will work when this header is included in the request.
 trade_opportunities_api-
 │
 ├── main.py
+├── ai_analysis.py
+├── data_collector.py
+├── auth.py
+├── rate_limiter.py
+├── models.py
+│
 ├── requirements.txt
 └── README.md
 
